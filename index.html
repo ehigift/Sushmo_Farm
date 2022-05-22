@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.jpeg">
+    <script src="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-md navbar-light shadow p-3 bg-body rounded">
+        <div class="container ">
+            <!-- logo -->
+            <a href="#" class="navbar-brand"><img src="img/logo.png" alt="" width="210"
+                    class="d-inline-block align-top"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
+                aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- nav-links -->
+            <div class="collapse navbar-collapse navbar-1" id="toggleMobileMenu">
+                <ul class="navbar-nav ms-auto text-left">
+                    <li>
+                        <a class="nav-link fw-bold" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link fw-bold" href="#">About</a>
+                    </li>
+                    <li>
+                        <a class="nav-link fw-bold" href="#">Products</a>
+                    </li>
+                    <li>
+                        <a class="nav-link fw-bold" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Home -->
+    <div class="container-1">
+        <div class="overlay text-center">
+            <div class="content-1">
+                <h1 class="title fw-bold">Welcome to Sushmo Farms</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex aperiam nobis placeat error molestias
+                    blanditiis odio, <br> illum qui dignissimos! Alias veritatis blanditiis sequi eaque quam dignissimos
+                    exercitationem aut.</p>
+                <a class="btn btn-1 px-5">get started</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- about -->
+    <div class="port pb-5">
+        <div class="container pb-5">
+            <div class="text text-center p-5">
+                <h3 class="fs-1">Products</h3>
+                <p class="fs-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime reiciendis alias quasi
+                    dignissimos,
+                    mollitia dolores quam unde quos <br> rerum nostrum iusto libero at suscipit obcaecati velit? Alias
+                culpa illo asperiores.
+            </p>
+            </div>
+            <div class="flex-container">
+                <div>
+                    <img src="/img/img_1.jpg" class="avg" alt="cayan tower">
+                </div>
+                <div class="twr">
+                    <h3 class="fs-1">Healthy Pigs</h3>
+                    <p class="fs-2">Elusmod qui elit minim sunt aute est. Magna incididunt lorem laborum non voluptate.
+                        Temporea enim ad accaecat duis laborum ex aliquip pariatur veniam voluptate amet. labore
+                        pariatur</p>
+                </div>
+            </div>
+            <div class="flex-container">
+                <div class="twr">
+                    <h3 class="fs-1">Turkey</h3>
+                    <p class="fs-2">Elusmod qui elit minim sunt aute est. Magna incididunt lorem laborum non voluptate.
+                        Temporea enim ad accaecat duis laborum ex aliquip pariatur veniam voluptate amet. labore
+                        pariatur</p>
+                </div>
+                <div>
+                    <img src="/img/img_2.jpg" class="avg" alt="glasshouse">
+                </div>
+            </div>
+            <div class="flex-container">
+                <div>
+                    <img src="/img/img_3.jpg" class="avg" id="avg" alt="matrix_home">
+                </div>
+                <div class="twr">
+                    <h3 class="fs-1">Broilers</h3>
+                    <p class="fs-2">Elusmod qui elit minim sunt aute est. Magna incididunt lorem laborum non voluptate.
+                        Temporea enim ad accaecat duis laborum ex aliquip pariatur veniam voluptate amet. labore
+                        pariatur</p>
+                </div>
+            </div>
+            <div class="flex-container">
+                <div class="twr">
+                    <h3 class="fs-1">Eggs</h3>
+                    <p class="fs-2">Elusmod qui elit minim sunt aute est. Magna incididunt lorem laborum non voluptate.
+                        Temporea enim ad accaecat duis laborum ex aliquip pariatur veniam voluptate amet. labore
+                        pariatur</p>
+                </div>
+                <div>
+                    <img src="/img/img_4.jpg" class="avg" id="avg" alt="glasshouse">
+                </div>
+            </div>
+            <hr>
+        </div>
+
+        <!-- contact -->
+        <section>
+            <div class="tittle text-center">
+                <h1 class="fs-1">Contact Us </h1>
+                <p class="fs-2">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Dolores facilis sit labore, earum in reprehenderit <br> consequatur suscipit a iure. 
+                    Necessitatibus sed culpa quo quam, ad iusto ipsam tenetur nihil dolore. 
+                </p>
+            </div>
+            <div class="contact">
+                <div class="contact-form">
+                    <form>
+                        <div class="row">
+                            <div class="input50">
+                                <input type="text" placeholder="First Name">
+                            </div>
+                            <div class="input50">
+                                <input type="text" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input50">
+                                <input type="text" placeholder=" Email">
+                            </div>
+                            <div class="input50">
+                                <input type="text" placeholder="Subject">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input100">
+                                <textarea placeholder="message"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input100">
+                                <input id="send"type="submit" value="send">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+    
+                <div class="contact-info">
+                    <div class="info-box">
+                        <img src="img/address.png" class="contact-icon" alt="">
+                        <div class="details">
+                            <h4>Address</h4>
+                            <p>28 Neon Tower, New York City, USA</p>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <img src="img/email.png" class="contact-icon" alt="" />
+                        <div class="details">
+                          <h4>Email</h4>
+                          <a href="mailto:anyone@example.com">anyone@example.com</a>
+                          <a href="mailto:anyone@example.com">anyone@example.com</a>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <img src="img/call.png" class="contact-icon" alt="" />
+                        <div class="details">
+                          <h4>Call</h4>
+                          <a href="tel:+19785555555">+1 978 555 5555</a>
+                          <a href="tel:+19784444444">+1 978 555 4444</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         
+        <!-- footer -->
+        <section class="footer">
+
+            <div class="icons-container">
+
+                <div class="icons">
+                    <i class="fas fa-clock"></i>
+                    <h3>opening hours</h3>
+                    <p>07:00am to 10:00pm</p>
+                </div>
+
+                <div class="icons">
+                    <i class="fas fa-phone"></i>
+                    <h3>phone</h3>
+                    <p>+234-806-755-1801</p>
+                    <p>+234-813-056-6049</p>
+                    <p>+234-803-096-5105</p>
+                </div>
+
+                <div class="icons">
+                    <i class="fas fa-envelope"></i>
+                    <h3>email</h3>
+                    <p>sushmofarms@gmail.com</p>
+                </div>
+
+                <div class="icons">
+                    <i class="fas fa-map"></i>
+                    <h3>address</h3>
+                    <p>Agwan Fulani, appma village opposite new nyanya market karu, Local government area of nasarawa
+                        state
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="share">
+                <a href="facebook.com/Sushmofarm" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+
+            <div class="credit"> created by <span>Techie</span> | all rights reserved! </div>
+
+        </section>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+        <script type="module">
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
+            import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-analytics.js";
+            
+            const firebaseConfig = {
+              apiKey: "AIzaSyALvhvsdLmaUFBpRvpeLpwbI_eQlgH0fqs",
+              authDomain: "sushmo-farms.firebaseapp.com",
+              projectId: "sushmo-farms",
+              storageBucket: "sushmo-farms.appspot.com",
+              messagingSenderId: "549136669931",
+              appId: "1:549136669931:web:c3f7fcbe3bd370b00d32ae",
+              measurementId: "G-6PY0RKZNST"
+            };
+          
+            const app = initializeApp(firebaseConfig);
+            const analytics = getAnalytics(app);
+          </script>
+</body>
+
+</html>
